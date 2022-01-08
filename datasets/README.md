@@ -31,22 +31,6 @@ _, _, _, _ = tts.info_parse(test_path)
 
 Output:
 ```terminal
-
-Total Class 84 
-Total Samples 166105 
-Minmum Sample Size 1940 
-Maximum Sample Size 1988
-(mlExp) pritom@ipritom:~/Desktop/workstation/PyTorch_BanglaLekhaIsolated$ python example_train_test_split.py 
-Traceback (most recent call last):
-  File "/home/pritom/Desktop/workstation/PyTorch_BanglaLekhaIsolated/example_train_test_split.py", line 1, in <module>
-    import train_test_splitter as tts
-  File "/home/pritom/Desktop/workstation/PyTorch_BanglaLekhaIsolated/train_test_splitter.py", line 85
-    if not os.path.isdirtrain_target_dest):
-                                         ^
-SyntaxError: unmatched ')'
-(mlExp) pritom@ipritom:~/Desktop/workstation/PyTorch_BanglaLekhaIsolated$ python example_train_test_split.py 
-Characteristics of dataset
-
 Total Class 84 
 Total Samples 166105 
 Minmum Sample Size 1940 
