@@ -2,7 +2,7 @@
 imageApp script helps to draw lines on the loaded image. The Screen class can be be used as image loader if `preload=False`.
 
 ## How to use
-Copy and page imageApp.py file to your project directory. Then load and run as following:
+Copy and paste imageApp.py file to your project directory. Then load and run as following:
 ```python
 from imageApp import Screen
 
