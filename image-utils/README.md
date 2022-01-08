@@ -1,7 +1,15 @@
 # imageApp
+imageApp script helps to draw lines on the loaded image. The Screen class can be be used as image loader if `preload=False`.
 
 ## How to use
+Copy and page imageApp.py file to your project directory. Then load and run as following:
+```python
+from imageApp import Screen
 
+window = Screen('imgs/white_t.jpg',shape=(600,500))
+window.add_event()
+window.show()
+```
 ## Troubleshoot
 May raise following errors which is related to OpenCV version issue.
 
