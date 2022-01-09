@@ -137,9 +137,9 @@ def batch_copy(value, path_list, train_target_dest, test_target_dest):
 
 if __name__ == "__main__":
     #root paths
-    root_path = "/home/nybsysml/Desktop/workstation_pritom/Pritom/MaskedFaceRec/dataset/AFDB_face_dataset/AFDB_face_dataset"
-    train_path = "/home/nybsysml/Desktop/workstation_pritom/Pritom/MaskedFaceRec/dataset/AFDB_face_dataset/train"
-    test_path = "/home/nybsysml/Desktop/workstation_pritom/Pritom/MaskedFaceRec/dataset/AFDB_face_dataset/test"
+    root_path = "dataset/AFDB_face_dataset/AFDB_face_dataset"
+    train_path = "dataset/AFDB_face_dataset/train"
+    test_path = "dataset/AFDB_face_dataset/test"
         
     class_dict, path_to_class, class_to_path_list, class_total_img_count = info_parse(train_path)
 
