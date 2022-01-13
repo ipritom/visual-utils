@@ -16,7 +16,7 @@ while True:  # show streamed images until Ctrl-C
     print(f'--- {count} ---')
     ####################################
 
-    cv2.imshow(rpi_name, image) # 1 window for each RPi
+    cv2.imshow(rpi_name, image) # 1 window for each camera feed
     image_hub.send_reply(b'OK')
 
     key = cv2.waitKey(1)
