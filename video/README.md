@@ -20,6 +20,6 @@ bash ./camerahub.sh
 
 # Network Video Recorder (NVR)
 
-A network video recorder (NVR) is a specialized computer system that includes a software program[1] that records video in a digital format to a disk drive, USB flash drive, SD memory card or other mass storage device.
+A network video recorder (NVR) is a specialized computer system that includes a software program that records video in a digital format to a disk drive, USB flash drive, SD memory card or other mass storage device.
 
 `nvr.py` attempts to replicate the computer system. 
