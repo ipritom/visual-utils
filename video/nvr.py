@@ -5,7 +5,7 @@ This scripts attempt to replicate NVR device.
 It records video from multiple cameras.
 
 """
-from camera import CameraStream
+from camera_config.camera import CameraStream
 import cv2
 import time
 import datetime
@@ -66,8 +66,11 @@ class CameraRecorder:
 				feed_name = get_feed_name(timestamp, node.camera_name)
 				datetime_tupple = datetime.datetime.fromtimestamp(timestamp)
 				
-				# resolving file_dump_path
-				month_path = os.path.join(node.camera_dump_path, str(datetime_tupple.month))
+				# resolving file_dump_path, path format : camera_name/year/month/day/hour
+				year_path = os.path.join(node.camera_dump_path, str(datetime_tupple.year))
+				_resolve_storage_paths(year_path)
+
+				month_path = os.path.join(year_path, str(datetime_tupple.month))
 				_resolve_storage_paths(month_path)
 
 				day_path = os.path.join(month_path, str(datetime_tupple.day))
