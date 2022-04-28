@@ -21,3 +21,6 @@ Problem encountered with opencv-python 4.5.4.60
 
 Problem solved with opencv-python 4.5.5.62
 
+# OCR 
+Helper function for isolating hand-written digits. Tested on digits-on-paper images. It works fine if digits are not overlapped. Solved with connected component algorithm. Utilized OpenCV `connectedComponentsWithStats` function.
+
